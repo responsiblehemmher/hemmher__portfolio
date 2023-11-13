@@ -9,7 +9,7 @@ import {
   Testimonials,
   Contact,
   Footer,
-  Top
+  Top,
 } from "./components";
 import { Helmet } from "react-helmet";
 import { Face } from "./assets";
@@ -21,6 +21,7 @@ function App() {
       <Helmet>
         <meta property="og:image" content={Face} />
       </Helmet>
+
       <Header />
       <main className="main">
         <Home />

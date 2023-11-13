@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "./info.css";
 import { BsAward } from "react-icons/bs";
 import { CgBriefcase } from "react-icons/cg";
@@ -8,22 +8,22 @@ const Info = () => {
   return (
     <div className="about__info grid">
       <div className="about__box">
-        <BsAward className='about__icon'/>
+        <BsAward className="about__icon" />
         <h3 className="about__title">Experience</h3>
-        <span className="about__subtitle">3 years</span>
+        <span className="about__subtitle">2 years</span>
       </div>
       <div className="about__box">
-        <CgBriefcase className='about__icon'/>
+        <CgBriefcase className="about__icon" />
         <h3 className="about__title">Completed</h3>
-        <span className="about__subtitle">21 Projects</span>
+        <span className="about__subtitle">17 Projects</span>
       </div>
       <div className="about__box">
-        <BiSupport className='about__icon'/>
+        <BiSupport className="about__icon" />
         <h3 className="about__title">Support</h3>
         <span className="about__subtitle">Online 24/7</span>
       </div>
     </div>
   );
-}
+};
 
-export default Info
+export default Info;

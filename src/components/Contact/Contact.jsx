@@ -1,11 +1,10 @@
 import React, { useRef } from "react";
-import './contact.css';
+import "./contact.css";
 import emailjs from "@emailjs/browser";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsArrowRightShort, BsWhatsapp } from "react-icons/bs";
 import { TbBrandTelegram } from "react-icons/tb";
 import { IoPaperPlaneOutline } from "react-icons/io5";
-
 
 const Contact = () => {
   const form = useRef();
@@ -51,19 +50,19 @@ const Contact = () => {
             <div className="contact__card">
               <BsWhatsapp className="contact__card-icon" />
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">+234-706-839-2370</span>
-              <a
-                href="https://wa.me/+2347068392370"
-                className="contact__button"
-              >
+              <span className="contact__card-data">+234-813-709-1375</span>
+              <a href="https://bit.ly/478QOzS" className="contact__button">
                 Write me <BsArrowRightShort className="contact__button-icon" />
               </a>
             </div>
             <div className="contact__card">
               <TbBrandTelegram className="contact__card-icon" />
               <h3 className="contact__card-title">Telegram</h3>
-              <span className="contact__card-data">czarultimate</span>
-              <a href="https://t.me/czarultimate" className="contact__button">
+              <span className="contact__card-data">responsible hemmher</span>
+              <a
+                href="https://t.me/responsiblehemmher"
+                className="contact__button"
+              >
                 Write me <BsArrowRightShort className="contact__button-icon" />
               </a>
             </div>

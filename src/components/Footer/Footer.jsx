@@ -1,13 +1,14 @@
 import React from "react";
 import "./footer.css";
 import { FiGithub } from "react-icons/fi";
-import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { MdWhatsapp } from "react-icons/md";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title"> Fortune </h1>
+        <h1 className="footer__title"> HemmherTechie </h1>
         <div className="footer__list">
           <a href="#about" className="footer__link">
             About
@@ -20,27 +21,24 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer__social">
-          <a
-            href="https://www.instagram.com/fortuneui"
-            className="footer__social-link"
-          >
-            <FaInstagram />
+          <a href="https://bit.ly/478QOzS" className="footer__social-link">
+            <MdWhatsapp />
           </a>
           <a
-            href = "https://www.linkedin.com/in/fortune-theo-b6445a230"
+            href="https://www.linkedin.com/in/edunjobi-emmanuel-718a59263"
             className="footer__social-link"
           >
             <FaLinkedinIn />
           </a>
           <a
-            href="https://www.github.com/theo-fortune"
+            href="https://github.com/responsiblehemmher"
             className="footer__social-link"
           >
             <FiGithub />
           </a>
         </div>
         <span className="footer__copy">
-          &#169; Theo Fortune All rights reserved
+          &#169; Edunjobi Emmanuel All rights reserved
         </span>
       </div>
     </footer>

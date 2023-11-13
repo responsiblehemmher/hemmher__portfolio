@@ -4,7 +4,6 @@ import { SlGraduation } from "react-icons/sl";
 import { BsFillCalendarCheckFill } from "react-icons/bs";
 import { VscBriefcase } from "react-icons/vsc";
 
-
 const Qualification = () => {
   const [toggleState, setToggleState] = useState(1);
   const toggleTab = (index) => {
@@ -49,10 +48,10 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Responsive Design</h3>
                 <span className="qualification__subtitle">
-                  SoloLearn - Institute
+                  SideOne - Institute
                 </span>
                 <div className="qualification__calendar">
-                  <BsFillCalendarCheckFill /> 2019 - 2020
+                  <BsFillCalendarCheckFill /> 2020 - 2021
                 </div>
               </div>
               <div>
@@ -67,12 +66,12 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">C++ Programming</h3>
+                <h3 className="qualification__title">JavaScript Programming</h3>
                 <span className="qualification__subtitle">
-                  W3Schools - Institute
+                  Codeweaver - Institute
                 </span>
                 <div className="qualification__calendar">
-                  <BsFillCalendarCheckFill /> 2023 - Present
+                  <BsFillCalendarCheckFill /> 2021 - 2022
                 </div>
               </div>
             </div>
@@ -80,10 +79,10 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Fullstack Development</h3>
                 <span className="qualification__subtitle">
-                  BoldLinks - Institute
+                  VenWorld Global - Institute
                 </span>
                 <div className="qualification__calendar">
-                  <BsFillCalendarCheckFill /> 2021 - 2022
+                  <BsFillCalendarCheckFill /> 2022 - Present
                 </div>
               </div>
               <div>
@@ -98,7 +97,7 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Java Programming</h3>
+                <h3 className="qualification__title">SQL Programming</h3>
                 <span className="qualification__subtitle">
                   W3Schools - Institute
                 </span>
@@ -108,11 +107,13 @@ const Qualification = () => {
               </div>
             </div>
           </div>
-          <div className={
+          <div
+            className={
               toggleState === 2
                 ? "qualification__content qualification__content-active"
                 : "qualification__content"
-            }>
+            }
+          >
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Programming Instructor</h3>
@@ -148,7 +149,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">ReactJs Programming</h3>
                 <span className="qualification__subtitle">
-                  Self Taught - Institute
+                  Self Taught - Institute Freecode Camp - Youtube
                 </span>
                 <div className="qualification__calendar">
                   <BsFillCalendarCheckFill /> 2022 - Present
@@ -168,7 +169,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Python Programming</h3>
                 <span className="qualification__subtitle">
-                  W3Schools - Institute
+                  W3Schools - Institute Cisco Networking Academy
                 </span>
                 <div className="qualification__calendar">
                   <BsFillCalendarCheckFill /> 2023 - Present
